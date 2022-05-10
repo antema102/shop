@@ -1,0 +1,115 @@
+<svg version="1.1" width="110" id="products" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 300 222" style="enable-background:new 0 0 300 222;" xml:space="preserve" class="hovered" >
+<style type="text/css">
+	/* animation */
+	:root {
+	cursor: pointer;
+	--green: #55B1A9;
+	--orange: #F47F64;
+	--white: #FFF;
+	--dark: #27465B;
+	}
+
+	/* colors */
+
+	.green{
+	fill: var(--green);
+	}
+	.orange{
+	fill: var(--orange);
+	}
+	.white{
+	fill: var(--white);
+	}
+	.dark{
+	fill: var(--dark);
+	}
+	.stroke{
+	stroke: #1F253A;
+	stroke-width: 4;
+	stroke-miterlimit: 10;
+	}
+	.transparent{
+	fill: none;
+	}
+	.round{
+	stroke-linecap: round;
+	}
+	.square{
+	stroke-linecap: square;
+	}
+	.white-stroke{
+	stroke: var(--white);
+	}
+	*{
+	transition: all ease 240ms;
+	}
+	#products #orange-left,
+	#products #white-right,
+	#products #green-left,
+	#products #green-right,
+	#products #vertical-leaf,
+	#products #pot rect,
+	#products #plant-icon{
+	    transform-box: fill-box;
+	    transform-origin: center;
+	    transition: all ease 240ms;
+			cursor: pointer;
+	}
+
+	#products.hovered #orange-left{
+	    transform: translate( -10px , 0px )rotate(-15deg)scale(1.1);
+	}
+	#products.hovered #white-right{
+	    transform: translate( 10px , 0px )rotate(15deg)scale(1.1);
+	}
+	#products.hovered #green-left{
+	    transform: translate( -5px , 0px )rotate(-8deg);
+	}
+	#products.hovered #green-right{
+	    transform: translate( 5px , 0px )rotate(8deg);
+	}
+	#products.hovered #vertical-leaf{
+	    transform: translate( 0px , -5px )scale(1.2);
+	}
+	#products.hovered #pot rect{
+	    fill: #55B1A9;
+	}
+	#products.hovered #plant-icon{
+	    transform: translate(0px,15px)rotate(0);
+	}
+#products .gradient{fill:url(#Gradient_Path-1);}
+</style>
+<g id="gradient-bg-1" transform="translate(894.489 2897.016)" class="st0">
+
+	<linearGradient id="Gradient_Path-1" gradientUnits="userSpaceOnUse" x1="-990.9973" y1="-2540.2676" x2="-990.2756" y2="-2537.8972" gradientTransform="matrix(106.611 0 0 -81.4297 104875.7891 -209543.6562)">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.29"/>
+		<stop  offset="0.569" style="stop-color:#DFFFFE"/>
+		<stop  offset="1" style="stop-color:#E1F0FF"/>
+	</linearGradient>
+	<path id="Tracé_1021" class="gradient" d="M-830.5-2874.7c51.2-20.6,117.8-16.6,132.1-14c22.2,4,32.7,9.5,40.6,21.2
+	c14.5,21.3,3.6,34.1-5.5,40.8c-13.4,9.9-19.2,35.7,15.2,33.1c15.1-1.1,35.8,8.4,39.7,27.4c7,33.7-6.4,80.6-50.4,83.3
+	c-92,5.7-213.6,8.6-222.5-28.7c-6.1-25.7-0.1-48.6,34.3-54.5c14.3-2.4,34.1-25.3,2.2-38.3C-871.8-2815.2-884.4-2853-830.5-2874.7z"
+	/>
+</g>
+<g id="plant-icon">
+	<path id="green-left" class="green stroke round" d="M121.1,106.9c0,0-7.1-10.1-10.2-20.9c-3.6-12.2-1.7-25.9-1.1-26.1
+	c0.6-0.2,17.6,10.5,25.1,23.9s9.9,30.5,9.9,30.5L121.1,106.9z"/>
+	<path id="green-right" class="green stroke round" d="M176.4,106.9c0,0,7.1-10.1,10.2-20.9c3.6-12.2,1.7-25.9,1.1-26.1
+	c-0.6-0.2-17.6,10.5-25.1,23.9s-9.9,30.5-9.9,30.5L176.4,106.9z"/>
+	<g id="vertical-leaf">
+		<path class="white stroke round" d="M159.2,122.1c2.9-8.1,5.3-18.3,5.3-29.8c0-29.5-15.8-50.3-15.8-50.3c0,0-15.8,20.7-15.8,50.3
+		c0,11.5,2.4,21.6,5.3,29.8H159.2z"/>
+		<line class="white stroke round" x1="148.7" y1="65.3" x2="148.7" y2="122.1"/>
+	</g>
+	<path id="orange-left" class="orange stroke round" d="M104.9,105.3c-7.1-10.5-9.4-24.1-8.9-24.5c0.5-0.4,19.9,4.7,31.2,15.2s18.6,26.1,18.6,26.1
+	l1.9,4.2h-17.2h-5.3C125.2,126.3,111.2,114.7,104.9,105.3z"/>
+	<path id="white-right" class="white stroke round" d="M192.4,105.3c7.1-10.5,9.4-24.1,8.9-24.5s-19.9,4.7-31.2,15.2s-20.4,30.3-20.4,30.3h21.8
+	C171.5,126.3,186.2,114.7,192.4,105.3z"/>
+	<g id="pot">
+		<path class="dark stroke round" d="M136.5,122.1h47c2.7,0,4.9,2.2,4.9,4.9v57.3c0,6.2-5,11.2-11.2,11.2h-57.1c-6.2,0-11.2-5-11.2-11.2V127
+		c0-2.7,2.2-4.9,4.9-4.9H124"/>
+		<rect x="109" y="138.3" class="white stroke round" width="79.4" height="24.5"/>
+	</g>
+</g>
+</svg>

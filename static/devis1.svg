@@ -1,0 +1,100 @@
+<svg version="1.1" id="devis" width="110" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 300 222" style="enable-background:new 0 0 300 222;" xml:space="preserve" class="hovered" >
+	<style type="text/css">
+		/* animation */
+		:root {
+		cursor: pointer;
+		--green: #55B1A9;
+		--orange: #F47F64;
+		--white: #FFF;
+		--dark: #27465B;
+		}
+
+		/* colors */
+
+		.green{
+		fill: var(--green);
+		}
+		.orange{
+		fill: var(--orange);
+		}
+		.white{
+		fill: var(--white);
+		}
+		.dark{
+		fill: var(--dark);
+		}
+		.stroke{
+		stroke: #1F253A;
+		stroke-width: 4;
+		stroke-miterlimit: 10;
+		}
+		.transparent{
+		fill: none;
+		}
+		.round{
+		stroke-linecap: round;
+		}
+		.square{
+		stroke-linecap: square;
+		}
+		.white-stroke{
+		stroke: var(--white);
+		}
+		*{
+		transition: all ease 240ms;
+		}
+		#devis #file-bg-3,
+		#devis:hover #file-bg-4,
+		#devis:hover #icon-devis{
+		transition: all ease 240ms;
+		transform-origin: center;
+		transform-box: fill-box;
+		cursor: pointer;
+		}
+		#devis.hovered #file-bg-3{
+		transform: translate( 65px , -20px )scale(0.9);
+		}
+		#devis.hovered #file-bg-4{
+		transform: translate( -45px , -20px )scale(0.9);
+		}
+		#devis.hovered #icon-devis{
+		transform: translate(0px, 10px);
+		}
+		#devis .gradient{fill:url(#Tracé_1021_2_);}
+	</style>
+	<g id="gradient-bg-1" transform="translate(894.489 2897.016)" class="st0">
+
+		<linearGradient id="Tracé_1021_2_" gradientUnits="userSpaceOnUse" x1="-990.9944" y1="-2541.3352" x2="-990.2726" y2="-2538.9648" gradientTransform="matrix(106.611 0 0 -81.4297 104875.7891 -209631.5781)">
+			<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.29"/>
+			<stop  offset="0.569" style="stop-color:#DFFFFE"/>
+			<stop  offset="1" style="stop-color:#E1F0FF"/>
+		</linearGradient>
+		<path id="Tracé_1021_1_" class="gradient" d="M-830.2-2875.7c51.2-20.6,117.8-16.6,132.1-14c22.2,4,32.7,9.5,40.6,21.2
+			c14.5,21.3,3.6,34.1-5.5,40.8c-13.4,9.9-19.2,35.7,15.2,33.1c15.1-1.1,35.8,8.4,39.7,27.4c7,33.7-6.4,80.6-50.4,83.3
+			c-92,5.7-213.6,8.6-222.5-28.7c-6.1-25.7-0.1-48.6,34.3-54.5c14.3-2.4,34.1-25.3,2.2-38.3C-871.5-2816.2-884.1-2854-830.2-2875.7z"
+			/>
+		</g>
+		<g id="icon-devis">
+			<rect id="file-bg-3" x="84.5" y="49" class="dark stroke round" width="98" height="131.2"/>
+			<rect id="file-bg-4" x="84.5" y="49" class="green stroke round" width="98" height="131.2"/>
+			<g id="file">
+				<polyline class="white stroke round" points="202.9,161 202.9,172.8 175.9,199.8 104.9,199.8 104.9,68.7 202.9,68.7 202.9,125.8   "/>
+				<line class="white stroke round" x1="202.9" y1="136.2" x2="202.9" y2="151.3"/>
+			</g>
+			<rect id="description" x="120.8" y="117.6" class="orange stroke" width="66" height="12.8"/>
+			<circle id="logo" class="dark stroke round" cx="129.4" cy="96.8" r="8.5"/>
+			<g id="texte">
+				<line class="stroke square" x1="186.9" y1="91.1" x2="153.9" y2="91.1"/>
+				<line class="stroke square" x1="186.9" y1="102.6" x2="154.8" y2="102.6"/>
+				<line class="stroke square" x1="165.2" y1="145.5" x2="139.7" y2="145.5"/>
+				<line class="stroke square" x1="186.9" y1="145.5" x2="178.5" y2="145.5"/>
+				<line class="stroke square" x1="158.7" y1="160.5" x2="172.7" y2="160.5"/>
+				<line class="stroke square" x1="139.7" y1="160.5" x2="145.4" y2="160.5"/>
+			</g>
+			<g id="check">
+				<circle class="dark stroke round" cx="191.1" cy="187.8" r="19.2"/>
+				<polyline class="white-stroke stroke square" points="184.8,188.1 189.2,192.5 197.6,184.1   "/>
+			</g>
+		</g>
+	</svg>

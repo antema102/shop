@@ -1,0 +1,121 @@
+<svg version="1.1" width="110" id="coffre-fort" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	y="0px" viewBox="0 0 300 222" style="enable-background:new 0 0 300 222;" xml:space="preserve" class="hovered">
+	<style type="text/css">
+		/* animation */
+		:root {
+		cursor: pointer;
+		--green: #55B1A9;
+		--orange: #F47F64;
+		--white: #FFF;
+		--dark: #27465B;
+		}
+
+		/* colors */
+
+		.green{
+		fill: var(--green);
+		}
+		.orange{
+		fill: var(--orange);
+		}
+		.white{
+		fill: var(--white);
+		}
+		.dark{
+		fill: var(--dark);
+		}
+		.stroke{
+		stroke: #1F253A;
+		stroke-width: 4;
+		stroke-miterlimit: 10;
+		}
+		.transparent{
+		fill: none;
+		}
+		.round{
+		stroke-linecap: round;
+		}
+		.square{
+		stroke-linecap: square;
+		}
+		.white-stroke{
+		stroke: var(--white);
+		}
+		*{
+		transition: all ease 240ms;
+		}
+		#coffre-fort #code,
+		#coffre-fort #poignee path,
+		#coffre-fort #porte{
+		    transform-box: fill-box;
+		    transform-origin: center;
+		    transition: all ease 240ms;
+		}
+		#coffre-fort.hovered #code{
+		    transform: rotate(100deg);
+		}
+		#coffre-fort #poignee path{
+		    transform: rotate(-90deg)translate(-5px, -5px);
+		    transform-origin: center top;
+		}
+		#coffre-fort.hovered #poignee path{
+		    transform: rotate(0deg);
+		    transition-delay: 0.2s;
+		}
+		#coffre-fort.hovered #porte{
+		    transform: translate(30px,0);
+		    transition-delay: 0.4s;
+		}
+	#coffre-fort .gradient{fill:url(#Gradient_Path-2);}
+	</style>
+	<g id="gradient-bg-2" transform="translate(894.489 2897.016)" class="st0">
+
+		<linearGradient id="Gradient_Path-2" gradientUnits="userSpaceOnUse" x1="-990.9973" y1="-2540.2676" x2="-990.2756" y2="-2537.8972" gradientTransform="matrix(106.611 0 0 -81.4297 104875.7891 -209543.6562)">
+			<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.29"/>
+			<stop  offset="0.569" style="stop-color:#DFFFFE"/>
+			<stop  offset="1" style="stop-color:#E1F0FF"/>
+		</linearGradient>
+		<path id="Tracé_1021" class="gradient" d="M-830.5-2874.7c51.2-20.6,117.8-16.6,132.1-14c22.2,4,32.7,9.5,40.6,21.2
+		c14.5,21.3,3.6,34.1-5.5,40.8c-13.4,9.9-19.2,35.7,15.2,33.1c15.1-1.1,35.8,8.4,39.7,27.4c7,33.7-6.4,80.6-50.4,83.3
+		c-92,5.7-213.6,8.6-222.5-28.7c-6.1-25.7-0.1-48.6,34.3-54.5c14.3-2.4,34.1-25.3,2.2-38.3C-871.8-2815.2-884.4-2853-830.5-2874.7z"
+		/>
+	</g>
+	<g id="coffre-icon" transform="translate(-2154.5 -2921.091)">
+		<path id="coffre" class="white stroke round" d="M2244.1,2981.1h111.7c6.3,0,11.4,5.1,11.4,11.4v95.1c0,6.3-5.1,11.4-11.4,11.4h-111.7
+		c-6.3,0-11.4-5.1-11.4-11.4v-95.1C2232.7,2986.2,2237.8,2981.1,2244.1,2981.1z"/>
+		<path id="fond" class="dark stroke round" d="M2243.2,3065.6v-74h113.5v96.8h-113.5v-12.3"/>
+		<g id="porte">
+			<path id="Tracé_1116_1_" class="white stroke round" d="M2243.2,3065.6v-74h113.5v96.8h-113.5v-12.3"/>
+
+			<g id="code">
+				<circle id="Ellipse_72_1_" class="green stroke round" cx="2319.5" cy="3039.6" r="22.6"/>
+				<circle id="Ellipse_73_1_" class="white stroke round" cx="2319.5" cy="3039.6" r="4.1"/>
+				<g id="Groupe_499_1_" transform="translate(2193.336 2937.583)">
+					<line id="Ligne_348_1_" class="transparent stroke round" x1="126.1" y1="79.4" x2="126.1" y2="86"/>
+					<line id="Ligne_349_1_" class="transparent stroke round" x1="126.1" y1="118" x2="126.1" y2="124.6"/>
+				</g>
+				<g id="Groupe_500_1_" transform="translate(2186.315 2940.492)">
+					<line id="Ligne_350_1_" class="transparent stroke round" x1="117.2" y1="83.1" x2="121.8" y2="87.8"/>
+					<line id="Ligne_351_1_" class="transparent stroke round" x1="144.5" y1="110.4" x2="149.1" y2="115.1"/>
+				</g>
+				<g id="Groupe_501_1_" transform="translate(2183.407 2947.513)">
+					<line id="Ligne_352_1_" class="transparent stroke round" x1="113.4" y1="92" x2="120.1" y2="92"/>
+					<line id="Ligne_353_1_" class="transparent stroke round" x1="152.1" y1="92" x2="158.7" y2="92"/>
+				</g>
+				<g id="Groupe_502_1_" transform="translate(2186.315 2940.492)">
+					<line id="Ligne_354_1_" class="transparent stroke round" x1="117.2" y1="115.1" x2="121.8" y2="110.4"/>
+					<line id="Ligne_355_1_" class="transparent stroke round" x1="144.5" y1="87.8" x2="149.1" y2="83.1"/>
+				</g>
+			</g>
+			<g id="poignee">
+				<circle id="Ellipse_71_1_" class="dark stroke round" cx="2271.1" cy="3039.6" r="13.3"/>
+				<path id="Rectangle_596_1_" class="orange stroke" d="M2271.1,3035.2L2271.1,3035.2c2.5,0,4.6,2.1,4.6,4.6v21.1c0,2.5-2.1,4.6-4.6,4.6l0,0
+				c-2.5,0-4.6-2.1-4.6-4.6v-21.1C2266.5,3037.2,2268.5,3035.2,2271.1,3035.2z"/>
+			</g>
+		</g>
+		<path id="pied-2" class="dark stroke round" d="M2243.1,3098.9h24.1l0,0v5c0,3.2-2.6,5.8-5.8,5.8h-12.6c-3.2,0-5.8-2.6-5.8-5.8c0,0,0,0,0,0
+		V3098.9L2243.1,3098.9z"/>
+		<path id="pied-1" class="dark stroke round" d="M2332.6,3098.9h24.1l0,0v5c0,3.2-2.6,5.8-5.8,5.8h-12.6c-3.2,0-5.8-2.6-5.8-5.8c0,0,0,0,0,0
+		V3098.9L2332.6,3098.9z"/>
+	</g>
+</svg>

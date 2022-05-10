@@ -1,0 +1,94 @@
+<svg version="1.1" id="factures" width="110" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 300 222.9" style="enable-background:new 0 0 300 222.9;" xml:space="preserve" class="hovered">
+<style type="text/css">
+  /* globals */
+  :root {
+      cursor: pointer;
+      --green: #55B1A9;
+      --orange: #F47F64;
+      --white: #FFF;
+      --dark: #27465B;
+  }
+  /* colors */
+
+  .green{
+      fill: var(--green);
+  }
+  .orange{
+      fill: var(--orange);
+  }
+  .white{
+      fill: var(--white);
+  }
+  .dark{
+      fill: var(--dark);
+  }
+  .stroke{
+      stroke: #1F253A;
+      stroke-width: 4;
+      stroke-miterlimit: 10;
+  }
+  .transparent{
+      fill: none;
+  }
+  .round{
+      stroke-linecap: round;
+  }
+  .square{
+      stroke-linecap: square;
+  }
+  .white-stroke{
+      stroke: var(--white);
+  }
+  *{
+      transition: all ease 240ms;
+  }
+  /* facture */
+   #factures #icon,
+   #file-bg-2,
+   #file-bg-1{
+      transition: all ease 240ms;
+      transform-origin: center;
+      transform-box: fill-box;
+      cursor: pointer;
+  }
+  #factures.hovered #icon{
+      transform: translate(15px, 15px);
+  }
+  #factures.hovered #file-bg-2{
+      transform: translate(-35px, -35px);
+      fill: #55b1a9;
+  }
+  #factures.hovered #file-bg-1{
+      transform: translate(-10px, -10px);
+  }
+#factures .gradient{fill:url(#Gradient_Path);}
+</style>
+<g id="gradient-bg" transform="translate(894.489 2897.016)" class="st0">
+<linearGradient id="Gradient_Path" gradientUnits="userSpaceOnUse" x1="-990.9973" y1="-2540.2676" x2="-990.2756" y2="-2537.8972" gradientTransform="matrix(106.611 0 0 -81.4297 104875.7891 -209543.6562)">
+<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.29"/>
+<stop  offset="0.569" style="stop-color:#DFFFFE"/>
+<stop  offset="1" style="stop-color:#E1F0FF"/>
+</linearGradient>
+<path id="Tracé_1021" class="gradient" d="M-830.5-2874.7c51.2-20.6,117.8-16.6,132.1-14c22.2,4,32.7,9.5,40.6,21.2
+c14.5,21.3,3.6,34.1-5.5,40.8c-13.4,9.9-19.2,35.7,15.2,33.1c15.1-1.1,35.8,8.4,39.7,27.4c7,33.7-6.4,80.6-50.4,83.3
+c-92,5.7-213.6,8.6-222.5-28.7c-6.1-25.7-0.1-48.6,34.3-54.5c14.3-2.4,34.1-25.3,2.2-38.3C-871.8-2815.2-884.4-2853-830.5-2874.7z"
+/>
+</g>
+<g id="icon">
+<rect id="file-bg-2" x="90.2" y="45.4" class="dark stroke round" width="98.1" height="131.3"/>
+<rect id="file-bg-1" x="90.2" y="45.4" class="dark stroke round" width="98.1" height="131.3"/>
+<g id="file">
+<path id="Tracé_1022" class="white stroke round" d="M208.7,157.5v11.9l-27.1,27.1h-71V65.1h98.1v57.2"/>
+<line id="Ligne_333" class="transparent stroke round" x1="208.7" y1="132.7" x2="208.7" y2="147.8"/>
+</g>
+<rect id="description" x="126.5" y="114.1" class="green stroke round" width="66.1" height="12.9"/>
+<rect id="total" x="158.1" y="142.2" class="orange stroke round" width="34.4" height="12"/>
+<circle id="logo" class="orange stroke round" cx="135.1" cy="93.3" r="8.5"/>
+<g id="texte" transform="translate(26.749 16.265)">
+<line id="Ligne_334" class="transparent stroke square" x1="165.9" y1="71.3" x2="132.9" y2="71.3"/>
+<line id="Ligne_335" class="transparent stroke square" x1="165.9" y1="82.8" x2="132.9" y2="82.8"/>
+</g>
+<path id="coin" style="stroke-linejoin: bevel;" class="green stroke round" d="M208.3,169.3h-26.7v27.1l27.1-27.1v0H208.3z"/>
+</g>
+</svg>

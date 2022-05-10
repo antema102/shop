@@ -1,0 +1,107 @@
+<svg version="1.1" width="110" id="achats" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 300 222" style="enable-background:new 0 0 300 222;" xml:space="preserve">
+	<style type="text/css">
+		/* animation */
+		:root {
+		cursor: pointer;
+		--green: #55B1A9;
+		--orange: #F47F64;
+		--white: #FFF;
+		--dark: #27465B;
+		}
+
+		/* colors */
+		.green{
+		fill: var(--green);
+		}
+		.orange{
+		fill: var(--orange);
+		}
+		.white{
+		fill: var(--white);
+		}
+		.dark{
+		fill: var(--dark);
+		}
+		.stroke{
+		stroke: #1F253A;
+		stroke-width: 4;
+		stroke-miterlimit: 10;
+		}
+		.transparent{
+		fill: none;
+		}
+		.round{
+		stroke-linecap: round;
+		}
+		.square{
+		stroke-linecap: square;
+		}
+		.white-stroke{
+		stroke: var(--white);
+		}
+		*{
+		transition: all ease 240ms;
+		}
+		#achats #dark-product,
+		#achats #orange-product,
+		#achats #blue-product,
+		#achats #achats-icon{
+		    transform-box: fill-box;
+		    transform-origin: center;
+		    transition: all ease 240ms;
+				cursor: pointer;
+		}
+		#achats #dark-product{
+		    transform: translate(0px,0px)rotate(0);
+		}
+		#achats #orange-product{
+		    transform: translate(0px,0px)rotate(0);
+		}
+		#achats #blue-product{
+		    transform: translate(0px,0px)rotate(0);
+		}
+		#achats.hovered #dark-product{
+		    transform: translate(-5px,-10px)rotate(-20deg);
+		}
+		#achats.hovered #orange-product{
+		    transform: translate(0px,-5px)rotate(0);
+		}
+		#achats.hovered #blue-product{
+		    transform: translate(5px,-10px)rotate(20deg);
+		}
+		#achats.hovered #achats-icon{
+		    transform: translate(0px,15px)rotate(0);
+		}
+	#achats .st0{fill:url(#bg-gradient-44_1_);}
+</style>
+<linearGradient id="bg-gradient-44_1_" gradientUnits="userSpaceOnUse" x1="-96.5054" y1="355.6808" x2="-95.7836" y2="358.0513" gradientTransform="matrix(106.611 0 0 -81.4297 10407.8906 29168.5566)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.29"/>
+	<stop  offset="0.569" style="stop-color:#DFFFFE"/>
+	<stop  offset="1" style="stop-color:#E1F0FF"/>
+</linearGradient>
+<path id="bg-gradient-44" class="st0" d="M64.3,21.3c51.2-20.6,117.8-16.6,132.1-14c22.2,4,32.7,9.5,40.6,21.2
+c14.5,21.3,3.6,34.1-5.5,40.8c-13.4,9.9-19.2,35.7,15.2,33.1c15.1-1.1,35.8,8.4,39.7,27.4c7,33.7-6.4,80.6-50.4,83.3
+c-92,5.7-213.6,8.6-222.5-28.7c-6.1-25.7-0.1-48.6,34.3-54.5c14.3-2.4,34.1-25.3,2.2-38.3C23,80.8,10.4,43,64.3,21.3z"/>
+<g id="achats-icon">
+	<path id="laniere-haut" class="transparent stroke rounded" d="M126.6,76.4V64.7c0,0,0,0,0,0c-0.1-11.5,9.2-20.9,20.7-20.9l0,0
+	c11.5,0.1,20.8,9.4,20.7,20.9v11.7"/>
+
+	<rect id="dark-product" x="107.5" y="56.9" class="dark stroke round" width="39.9" height="62.4"/>
+
+	<rect id="blue-product" x="151.3" y="64.6" class="green stroke round" width="34.5" height="62.4"/>
+
+	<rect id="orange-product" x="128.5" y="72.8" class="orange stroke" width="39.9" height="62.4"/>
+	<g id="cabas">
+		<path id="Tracé_1127" class="white stroke round" d="M194.6,182.8H100c-4.6,0-8.4-3.8-8.4-8.4c0-0.2,0-0.4,0-0.6l6.5-86.7h98.3l6.5,86.7
+		c0.3,4.6-3.1,8.7-7.8,9C195,182.8,194.8,182.8,194.6,182.8z"/>
+		<path id="Tracé_1133" class="green stroke round" d="M201.6,157.5H92.8l1.2-16.3h106.5L201.6,157.5z"/>
+	</g>
+	<g id="oeillets">
+		<circle id="Ellipse_74" class="white stroke round" cx="126.6" cy="100.5" r="3.8"/>
+		<circle id="Ellipse_75" class="white stroke round" cx="168" cy="100.5" r="3.4"/>
+	</g>
+	<path id="laniere-bas" class="transparent stroke rounded" d="M168,100.2v11.7c0.1,11.5-9.2,20.9-20.7,20.9l0,0c-11.5-0.1-20.8-9.4-20.7-20.9c0,0,0,0,0,0
+	v-11.7"/>
+</g>
+</svg>
