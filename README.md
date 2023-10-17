@@ -19,7 +19,5 @@ Ce projet vise à développer un logiciel complet de gestion des stocks et de ge
 3. Importez la base de données située dans le dossier "database".
 4. Lancez l'application web pour commencer à l'utiliser.
 
-## Remarque
 
-Assurez-vous de disposer d'un environnement de serveur local configuré avec les dépendances requises. Si vous rencontrez des problèmes lors de l'installation ou de l'exécution de l'application, veuillez consulter la documentation supplémentaire incluse dans le dossier ou contacter l'équipe de support.
 
