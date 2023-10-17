@@ -1,12 +1,25 @@
- Projet consiste à développer un logiciel de gestion des stocks et de gestion commerciale qui comprendra plusieurs modules tels que la gestion des factures, des proformas, des avoirs ainsi que la gestion des devis, des clients et des produits.
+# Logiciel de Gestion des Stocks et de Gestion Commerciale
 
-Parmi les fonctionnalités principales de votre logiciel, il y aura la possibilité de gérer les stocks en temps réel, de suivre les mouvements de stock, de créer des alertes pour les niveaux de stock bas, etc. La gestion commerciale permettra de générer des factures, des proformas, des avoirs, de suivre les paiements, d'analyser les ventes, etc.
+Ce projet vise à développer un logiciel complet de gestion des stocks et de gestion commerciale avec une gamme de fonctionnalités essentielles. Il comprendra plusieurs modules, tels que la gestion des factures, des proformas, des avoirs, la gestion des devis, des clients et des produits.
 
-Le module de gestion des clients vous permettra de suivre les informations et les historiques de vos clients, de gérer les offres spéciales, les remises, les promotions, etc. Le module de gestion des produits vous permettra de gérer les informations relatives à vos produits (prix, quantité, description, image, etc.) ainsi que le suivi des stocks.
+## Fonctionnalités Principales
 
-En somme, Le projet aura pour but d'offrir une solution complète pour la gestion des stocks et la gestion commerciale, avec une interface conviviale et facile à utiliser, afin de faciliter la gestion de l'activité commerciale de votre entreprise.
+- Gestion en temps réel des stocks
+- Suivi des mouvements de stock
+- Alertes pour les niveaux de stock bas
+- Génération de factures, de proformas et d'avoirs
+- Suivi des paiements et analyse des ventes
+- Gestion des clients avec historiques et informations détaillées
+- Gestion complète des informations sur les produits
 
+## Installation
 
-Telecharger le fichier en zip .
-deplacer dans le server local le fichier zip d'extract ,importer la base de données qui est situé dans le dossier  database .
-Ensuite lancer le suite web.
+1. Téléchargez le fichier au format ZIP.
+2. Décompressez le fichier ZIP et déplacez-le vers votre serveur local.
+3. Importez la base de données située dans le dossier "database".
+4. Lancez l'application web pour commencer à l'utiliser.
+
+## Remarque
+
+Assurez-vous de disposer d'un environnement de serveur local configuré avec les dépendances requises. Si vous rencontrez des problèmes lors de l'installation ou de l'exécution de l'application, veuillez consulter la documentation supplémentaire incluse dans le dossier ou contacter l'équipe de support.
+
